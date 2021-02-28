@@ -1,0 +1,17 @@
+{
+  "name": "typescript_webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.1.5",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "prestart": "./watch.sh",
+    "start": "node ./dist/bundle.js"
+  }
+}

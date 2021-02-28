@@ -1,0 +1,1 @@
+(()=>{var t=new(function(){function t(t,h,i){this.name=t,this.height=h,this.width=i}return t.prototype.showPeople=function(){console.log("Your name is "+this.name+" and width and height is "+this.height+"x "+this.width)},t}())("Edson",1.7,60);console.log(t),t.showPeople()})();

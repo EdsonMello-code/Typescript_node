@@ -1,0 +1,1 @@
+yarn webpack --config webpack.config.js
